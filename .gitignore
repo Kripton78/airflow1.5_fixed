@@ -1,6 +1,18 @@
 # Prerequisites
 *.d
 
+# VS artifact files
+.vs/
+Debug/
+Alpha/
+Beta/
+Live/
+Legacy Debug/
+Legacy Alpha/
+Legacy Beta/
+Legacy Live/
+Bins/
+
 # Compiled Object files
 *.slo
 *.lo
@@ -24,9 +36,12 @@
 *.lai
 *.la
 *.a
-*.lib
+
+# Debugging  symbols
+*.map
 
 # Executables
 *.exe
 *.out
 *.app
+*.idb
